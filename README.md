@@ -10,7 +10,7 @@ Dit project is opgezet als skelet op basis van codelijst-luchtzuiveringssysteem.
 - [ ] Samenvatting hierboven invullen.
 - [ ] In `src/source/config.yml` de `TODO`-waarden onder `metadata.dataset` invullen: `description` en `provenance.label`; `title` nakijken.
 - [ ] In `src/source/config.yml` nagaan of `theme` (eurovoc, gemet, ...) en `spatial` passen voor deze codelijst.
-- [ ] In `src/source/codelijst-source.csv` de definitie van het conceptschema `conceptscheme:vlaremrubrieken` invullen en het concept `voorbeeld` vervangen door de eigenlijke concepten; daarna `npm run create_skos` om de bestanden in `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/vlaremrubrieken/` opnieuw te genereren.
+- [ ] In `src/source/codelijst-source.csv` de definitie van het conceptschema `conceptscheme:vlaremrubrieken` invullen en het concept `voorbeeld` vervangen door de eigenlijke concepten; daarna `pnpm run create_skos` om de bestanden in `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/vlaremrubrieken/` opnieuw te genereren.
 - [ ] Extra CSV-kolommen die nodig zijn toevoegen aan `src/source/context.json` (en zo nodig aan de frames in `src/utils/variables.js`).
 - [ ] De SHACL-shapes in `src/main/resources/be/vlaanderen/omgeving/data/id/ontology/vlaremrubrieken-ap-constraints/vlaremrubrieken-ap-constraints.ttl` afstemmen op de codelijst (verplichte velden, kardinaliteiten, eventuele extra eigenschappen).
 - [ ] Nakijken of de `LICENSE` (GPL v3) de juiste licentie is.
@@ -23,7 +23,7 @@ Dit project is opgezet als skelet op basis van codelijst-luchtzuiveringssysteem.
 | `src/source/config.yml` | configuratie: namespaces, prefixen, DCAT-metadata van dataset en distributies |
 | `src/source/context.json` | JSON-LD context die de CSV-kolommen op RDF-termen afbeeldt |
 | `src/main/resources/be/vlaanderen/omgeving/data/id/ontology/vlaremrubrieken-ap-constraints/` | SHACL-shapes waartegen de codelijst gevalideerd wordt |
-| `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/vlaremrubrieken/` | gegenereerde codelijst (ttl, nt, jsonld, json, csv, parquet, xlsx) |
+| `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/vlaremrubrieken/` | gegenereerde codelijst (ttl, nt, jsonld, json, csv, parquet) |
 
 ## Gebruik
 
@@ -32,7 +32,7 @@ Dit project is opgezet als skelet op basis van codelijst-luchtzuiveringssysteem.
 ### Voer het transformatiescript uit:
 ```
 cd $PROJECT_HOME
-npm run create_skos
+pnpm run create_skos
 ```
 
 ### Run een maven build (testen worden uitgevoerd en metadata aangemaakt)
@@ -45,8 +45,8 @@ mvn clean install
 
 **_nodejs_**
 
-### Installeer libraries in package.json
+### Installeer libraries in package.json (met pnpm, versie vastgelegd in `packageManager`)
 ```
 cd $PROJECT_HOME
-npm install
+pnpm install
 ```
