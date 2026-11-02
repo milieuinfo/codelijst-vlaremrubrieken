@@ -1,0 +1,111 @@
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken> <http://purl.org/dc/terms/title> "VLAREM-rubrieken vocabularium"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftConcordantie> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/xkos#ConceptAssociation> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> "https://data.omgeving.vlaanderen.be/id/conceptscheme/concordantietype" .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensEenheid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensWaarde> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensOperator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/xkos#ConceptAssociation> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensEenheid> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftOndergrens> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftBovengrens> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensWaarde> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken> <http://purl.org/dc/terms/description> "Vocabularium met custom properties gebruikt in de overkoepelende VLAREM-rubrieken codelijst."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftOndergrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftConcordantie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftBovengrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftHoeveelheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftBovengrens> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftHoeveelheid> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftOndergrens> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#rubrieknummer> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Rubrieknummer' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensEenheid> <http://www.w3.org/2000/01/rdf-schema#comment> "De eenheid van een hoeveelheidsgrens, bijvoorbeeld kg, ton/jaar of m³."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensWaarde> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde van een hoeveelheidsgrens."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Audit' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <http://www.w3.org/2000/01/rdf-schema#comment> "Het type concordantie tussen een vorige versie een één of meerdere volgende versies."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> <http://www.w3.org/2000/01/rdf-schema#comment> "Een hoeveelheid, uitgedrukt aan de hand van een eventuele ondergrens en bovengrens"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingUitzonderingen> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Omschrijving uitzonderingen' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftOndergrens> <http://www.w3.org/2000/01/rdf-schema#comment> "Grenswaarde die de ondergrens van een hoeveelheidsbereik van een concept voorstelt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "De operator van een hoeveelheidsgrens, bijvoorbeeld <, <=, >, >= of =."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftBovengrens> <http://www.w3.org/2000/01/rdf-schema#comment> "Grenswaarde die de bovengrens van een hoeveelheidsbereik van een concept voorstelt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Vlarebo' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Coördinator' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijving> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Omschrijving' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar de ConceptScheme die de toegelaten waarden voor een property bevat."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftHoeveelheid> <http://www.w3.org/2000/01/rdf-schema#comment> "Verwijst naar een hoeveelheid die een eventuele ondergrens en bovengrens van een hoeveelheidsbereik van een concept voorstelt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> <http://www.w3.org/2000/01/rdf-schema#comment> "Een onder- of bovengrens van een hoeveelheidsbereik, uitgedrukt aan de hand van een operator, waarde en eenheid"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Jaarverslag' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftConcordantie> <http://www.w3.org/2000/01/rdf-schema#comment> "Concordantie die de relatie tussen concepten voorstelt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Opmerkingen' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Klasse' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingOpmerkingen> <http://www.w3.org/2000/01/rdf-schema#comment> "De waarde voor de kolom 'Omschrijving opmerkingen' van een VLAREM rubriek."@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/audit> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/vlarebo> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/jaarverslag> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/coordinator> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/klasse> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/vlaremrubrieken/opmerkingen> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijving> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftConcordantie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#rubrieknummer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingUitzonderingen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingOpmerkingen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftHoeveelheid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#rubrieknummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingOpmerkingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingUitzonderingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensWaarde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensEenheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#concordantietype> <http://www.w3.org/2000/01/rdf-schema#label> "concordantietype"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensEenheid> <http://www.w3.org/2000/01/rdf-schema#label> "grenseenheid"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#klasse> <http://www.w3.org/2000/01/rdf-schema#label> "Klasse"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#rubrieknummer> <http://www.w3.org/2000/01/rdf-schema#label> "Rubrieknummer"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensWaarde> <http://www.w3.org/2000/01/rdf-schema#label> "grenswaarde"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#coordinator> <http://www.w3.org/2000/01/rdf-schema#label> "Coördinator"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#HoeveelheidGrens> <http://www.w3.org/2000/01/rdf-schema#label> "hoeveelheidsgrens"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingOpmerkingen> <http://www.w3.org/2000/01/rdf-schema#label> "Omschrijving opmerkingen"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftOndergrens> <http://www.w3.org/2000/01/rdf-schema#label> "ondergrenswaarde"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#Hoeveelheid> <http://www.w3.org/2000/01/rdf-schema#label> "hoeveelheid"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftConcordantie> <http://www.w3.org/2000/01/rdf-schema#label> "concordantie"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#audit> <http://www.w3.org/2000/01/rdf-schema#label> "Audit"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftBovengrens> <http://www.w3.org/2000/01/rdf-schema#label> "bovengrenswaarde"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingUitzonderingen> <http://www.w3.org/2000/01/rdf-schema#label> "Omschrijving uitzonderingen"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#vlarebo> <http://www.w3.org/2000/01/rdf-schema#label> "Vlarebo"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijving> <http://www.w3.org/2000/01/rdf-schema#label> "Omschrijving"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#opmerkingen> <http://www.w3.org/2000/01/rdf-schema#label> "Opmerkingen"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#jaarverslag> <http://www.w3.org/2000/01/rdf-schema#label> "Jaarverslag"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#grensOperator> <http://www.w3.org/2000/01/rdf-schema#label> "grensoperator"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#heeftHoeveelheid> <http://www.w3.org/2000/01/rdf-schema#label> "hoeveelheid"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#valueScheme> <http://www.w3.org/2000/01/rdf-schema#label> "waarde codelijst"@nl .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingUitzonderingen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#rubrieknummer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijvingOpmerkingen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://data.omgeving.vlaanderen.be/ns/vlaremrubrieken#omschrijving> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .

@@ -25,7 +25,7 @@ dcat:
   path_catalog: be/vlaanderen/omgeving/data/id/catalog/
   path_dataset: be/vlaanderen/omgeving/data/id/dataset/
   name: codelijst-vlaremrubrieken
-  dataset_jsonld: dataset.jsonld
+#  dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
   catalog_turtle: catalog.ttl
   catalog_jsonld: catalog.jsonld
@@ -37,7 +37,7 @@ ap :
   turtle: .ttl
 
 metadata :
-  start_version : 0.1.0
+  start_version : 0.0.1
   sparqlservice:
     title: "Sparql service op endpoint https://data.omgeving.vlaanderen.be/sparql"
     description: "Een beschrijving van de sparql service, met de verschillende kenmerken."
