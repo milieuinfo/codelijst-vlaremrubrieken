@@ -25,7 +25,7 @@ dcat:
   path_catalog: be/vlaanderen/omgeving/data/id/catalog/
   path_dataset: be/vlaanderen/omgeving/data/id/dataset/
   name: codelijst-vlaremrubrieken
-#  dataset_jsonld: dataset.jsonld
+  dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
   catalog_turtle: catalog.ttl
   catalog_jsonld: catalog.jsonld
@@ -80,48 +80,48 @@ metadata :
     type: http://www.w3.org/ns/dcat#Catalog
   dataset :
     title: "Dataset van de codelijst vlaremrubrieken."
-    description: "TODO: beschrijving van de dataset van de codelijst vlaremrubrieken."
+    description: "Codelijst van VLAREM rubrieken en zijn ondersteunende lijsten."
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
     provenance:
       label: "TODO: herkomst van de codelijst vlaremrubrieken."
   distribution :
-    parquet:
-      title: "Codelijst vlaremrubrieken, geserialiseerd als parquet-formaat."
-      description: "Codelijst vlaremrubrieken, geserialiseerd als parquet bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
-      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    csv:
-      title: "Codelijst vlaremrubrieken, geserialiseerd als csv-formaat."
-      description: "Codelijst vlaremrubrieken, geserialiseerd als csv bestand."
-      mediaType: https://www.iana.org/assignments/media-types/text/csv
-      format: http://publications.europa.eu/resource/authority/file-type/CSV
-      type: http://www.w3.org/ns/dcat#Distribution
+#    parquet:
+#      title: "Codelijst vlaremrubrieken, geserialiseerd als parquet-formaat."
+#      description: "Codelijst vlaremrubrieken, geserialiseerd als parquet bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
+#      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
+#      type: http://www.w3.org/ns/dcat#Distribution
+#    csv:
+#      title: "Codelijst vlaremrubrieken, geserialiseerd als csv-formaat."
+#      description: "Codelijst vlaremrubrieken, geserialiseerd als csv bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/text/csv
+#      format: http://publications.europa.eu/resource/authority/file-type/CSV
+#      type: http://www.w3.org/ns/dcat#Distribution
     nt:
       title: "Codelijst vlaremrubrieken, geserialiseerd als n-triple-formaat."
       description: "Codelijst vlaremrubrieken, geserialiseerd als n-triple bestand."
       mediaType: https://www.iana.org/assignments/media-types/application/n-triples
       format: http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES
       type: http://www.w3.org/ns/dcat#Distribution
-    json:
-      title: "Codelijst vlaremrubrieken, geserialiseerd als json-formaat."
-      description: "Codelijst vlaremrubrieken, geserialiseerd als json bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/json
-      format: http://publications.europa.eu/resource/authority/file-type/JSON
-      type: http://www.w3.org/ns/dcat#Distribution
+#    json:
+#      title: "Codelijst vlaremrubrieken, geserialiseerd als json-formaat."
+#      description: "Codelijst vlaremrubrieken, geserialiseerd als json bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/json
+#      format: http://publications.europa.eu/resource/authority/file-type/JSON
+#      type: http://www.w3.org/ns/dcat#Distribution
     ttl:
       title: "Codelijst vlaremrubrieken, geserialiseerd als turtle-formaat."
       description: "Codelijst vlaremrubrieken, geserialiseerd als turtle bestand."
       mediaType: https://www.iana.org/assignments/media-types/text/turtle
       format: http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
       type: http://www.w3.org/ns/dcat#Distribution
-    jsonld:
-      title: "Codelijst vlaremrubrieken, geserialiseerd als ld+json-formaat."
-      description: "Codelijst vlaremrubrieken, geserialiseerd als ld+json bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/ld+json
-      format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
-      type: http://www.w3.org/ns/dcat#Distribution
+#    jsonld:
+#      title: "Codelijst vlaremrubrieken, geserialiseerd als ld+json-formaat."
+#      description: "Codelijst vlaremrubrieken, geserialiseerd als ld+json bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/ld+json
+#      format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
+#      type: http://www.w3.org/ns/dcat#Distribution
     jar :
       title: "Codelijst vlaremrubrieken, alle verspreidingsvormen samengevoegd in een jar-formaat."
       description: "Codelijst vlaremrubrieken, alle verspreidingsvormen samengevoegd in een jar bestand."
