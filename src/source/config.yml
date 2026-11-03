@@ -19,7 +19,8 @@ skos:
 
 source:
   path: ./source/
-  codelijst_csv: codelijst-source.csv
+  codelijst_csv:
+    - codelijst-source.csv
   context: context.json
 dcat:
   path_catalog: be/vlaanderen/omgeving/data/id/catalog/
